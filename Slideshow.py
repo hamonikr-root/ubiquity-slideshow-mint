@@ -116,7 +116,8 @@ def progress_increment(progressbar, fraction):
 
 default_path = os.path.join( os.path.abspath(os.path.dirname(sys.argv[0])) , 'build', 'ubuntu' )
 
-default_locale = locale.getlocale()[0]
+#default_locale = locale.getlocale()[0]
+default_locale = 'k'
 
 parser = OptionParser(usage="usage: %prog [options] [slideshow]")
 parser.add_option("-l", "--locale", help="LOCALE to use for the slideshow", metavar="LOCALE", default=default_locale)

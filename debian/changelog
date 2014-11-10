@@ -1,3 +1,23 @@
+ubiquity-slideshow-mint (70mint12+hamonikr~1.gbpb552dc) trusty; urgency=medium
+
+  ** SNAPSHOT build @b552dce757ef6c4ae4b26f99c21d154a551d5b74 **
+
+  [ hamonica ]
+  * modified default_locale to k and screenshots images
+  * translate a office.html in slideshow
+  * add the space for next sentences at office.html
+
+  [ hamonikr ]
+  * translated by unified hangul menu
+  * add the Hexchat's msgstr in chat.html and translate the gThumb
+  * translate at the msgstr's Welcome in the po/mint/ko.po
+  * translate the hangul
+  * translate the hangul string
+
+  [ hamoniKR Autobuilder ]
+
+ -- hamoniKR Autobuilder <hamonikr@gmail.com>  Sat, 08 Nov 2014 21:31:09 +0900
+
 ubiquity-slideshow-mint (70mint12) qiana; urgency=medium
 
   * Fixed a typo in the German translation
